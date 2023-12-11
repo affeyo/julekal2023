@@ -1,0 +1,158 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: Inter;
+    src: url(assets/inter.ttf);
+}
+
+.top-banner {
+    background-color: #111;
+    color: white;
+    font-family: Inter;
+}
+
+.top-banner * 
+{
+    margin: 0;
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.top-wrapper {
+    background-color: rgb(15, 11, 54);
+    color: white;
+    min-height: 700px;
+}
+
+.banner {
+    /* align-items: center; */
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 870px;
+}
+
+.logo {
+    height:46px;
+}
+
+.content {
+    display:flex;
+    max-width: 1403px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.content-box {
+    width:50%;
+    padding:83px;
+}
+
+.heading p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 160%;
+    font-family: Inter;
+    line-height: 125%;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.heading h1 {
+    margin: 0;
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 125%;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.description {
+    font-family: Inter;
+    max-width: 600px;
+    padding-top: 40px;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.stream-video {
+    width:100%;
+    display: block;
+}
+
+.stream-outer {
+    position: relative;
+    border: 2px solid red;
+}
+
+.stream-live-dot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:80px;
+}
+
+.hint-section {
+    font-family: Inter;
+    /* display:flex; */
+    max-width: 1403px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:60px;
+}
+
+.hint-section h2 {
+    text-align:center;
+    /* font-size: 80px; */
+    margin:0px;
+    padding-top:10px;
+}
+
+.hint-section h1 {
+    text-align:center;
+    font-size: 80px;
+    margin:5px;
+}
+
+.hint-section .price-hint {
+    text-align: center;
+    padding: 10px;
+}
+.hint-section .fasit {
+    text-align: center;
+    padding: 10px;
+}
+
+.hint-item {
+    /* border: 1px solid black; */
+    border-radius:10px;
+    max-width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    font-family: Inter;
+    font-style: italic;
+}
+
+.almost-footer {
+    margin-top:10px;
+    margin-bottom:10px;
+    text-align: center;
+    font-family: Inter;
+}

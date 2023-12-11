@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Hvorfhorde - Jakten på julegrisene</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            min-height: 100vh;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <div class="outer-wrapper">
+        <div class="top-wrapper">
+            <div class="banner">
+                <img class="logo" src="assets/hvorfhorde-logo-white.png" alt="logo">
+            </div>
+            <div class="content">
+                <div class="content-box">
+                    <div class="heading">
+                        <p>Jakten på</p>
+                        <h1>julegrisen</h1>
+                    </div>
+                    <div class="description">
+                        Flere steder på det store internett er det gjemt 6 julegriser. Hver av disse julegrisene bringer
+                        med seg en
+                        premie.
+                        Hvis du finner dagens gris innen kl. 10:00 neste arbeidsdag er du med i trekningen av premien.
+                        Første person som gjetter hva denne hemmelige premien er - vil også vinne premien (ett gjett per
+                        dag)!
+                        Hint til julegrisene og premien vil dukke opp her de neste arbeidsdagene kl. 10:00.
+                        <br>
+                        <br>
+                        #JaffenPåJulegrisen
+                    </div>
+                </div>
+                <div class="content-box">
+                    <div class="stream-outer">
+                        <img class="stream-video" src="assets/pig.gif" alt="coffee-stream">
+                        <img class="stream-live-dot" src="assets/live2.gif" alt="live">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="hint-section">
+            <div class="hint-item">
+                <h2>Oppg: 1. desember</h2>
+                <h1>
+                    boxors.ttt
+                </h1>
+                <p class="price-hint">Hint: De kommer til å ta over verden! ♥️♣️♠️♦️</p>
+                <p class="fasit">
+                    Første steg i denne oppgaven var å løse anagramet over. Kortstokk emojiene i hintet indikerer at bokstavene må <em>stokkes</em>.
+                    Hintet skal indikere at "robotene" kommer til å ta over verden. Riktig anagram blir: robots.txt.<br>
+                    Robots.txt er en fil de fleste nettsider har på rotnivå med regler for hvordan søkemotorer kan indeksere siden.<br>
+                    Går man da til hvorfhorde.affe.no/robots.txt ligger det en url til dypt.affe.no.<br>
+                    På dypt.affe.no er det en annen rebus med et bilde av mannen som fant opp ubåten og en Kongsberg logo. Her er riktig svar "hugin".<br>
+                    Første gris finner du da på hugin.affe.no og er GRIS{Baby_Pig}
+                </p>
+            </div>
+            <div class="hint-item">
+                <h2>Oppg: 4. desember</h2>
+                <h2>
+                    <a href="https://gruuids.affe.no">gruuids.affe.no</a>
+                </h2>
+                <p class="price-hint">Hint: "To hex, or not to hex" - <em>Apen Julius</em></p>
+                <p class="fasit">
+                    Her kommer du til en side med mange GUID / UUIDer, et sted på siden er det gjemt noe annet av interesse.
+                    Ser man på dataene viser det at IDene inneholder kun HEX chars. Dvs 0-9A-F. Hvis man på siden søker med CTRL+F på feks "G",
+                    kommer man til en linje med andre bokstaver. Linjen under ser ut som en vanlig linje, men er et bilde med en URL til: jula.affe.no <br>
+                    På jula.affe.no finnes grisen men den er "mista i salaten". Sammen med hintet Julius og salat, kan man komme frem til caesar cipher.
+                    Det vil si at bokstavene er rotert 13 ganger. A = N, B = O osv...<br>
+                    Riktig svar er: GRIS{Piggy_Bank}
+                </p>
+            </div>
+            <div class="hint-item">
+                <h2>Oppg: 5. desember</h2>
+                <p>
+                    <a href="assets/9c9ca374-f893-4784-9015-9d2e837a00a3/sounder-tokt1.kmz">📁sounder-tokt1.kmz</a>
+                </p>
+                <p class="price-hint">Hint: <img height="16" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xOS4wOTggMTAuNjM4Yy0zLjg2OC0yLjI5Ny0xMC4yNDgtMi41MDgtMTMuOTQxLTEuMzg3LS41OTMuMTgtMS4yMi0uMTU1LTEuMzk5LS43NDgtLjE4LS41OTMuMTU0LTEuMjIuNzQ4LTEuNCA0LjIzOS0xLjI4NyAxMS4yODUtMS4wMzggMTUuNzM4IDEuNjA1LjUzMy4zMTcuNzA4IDEuMDA1LjM5MiAxLjUzOC0uMzE2LjUzMy0xLjAwNS43MDktMS41MzguMzkyem0tLjEyNiAzLjQwM2MtLjI3Mi40NC0uODQ3LjU3OC0xLjI4Ny4zMDgtMy4yMjUtMS45ODItOC4xNDItMi41NTctMTEuOTU4LTEuMzk5LS40OTQuMTUtMS4wMTctLjEyOS0xLjE2Ny0uNjIzLS4xNDktLjQ5NS4xMy0xLjAxNi42MjQtMS4xNjcgNC4zNTgtMS4zMjIgOS43NzYtLjY4MiAxMy40OCAxLjU5NS40NC4yNy41NzguODQ3LjMwOCAxLjI4NnptLTEuNDY5IDMuMjY3Yy0uMjE1LjM1NC0uNjc2LjQ2NS0xLjAyOC4yNDktMi44MTgtMS43MjItNi4zNjUtMi4xMTEtMTAuNTQyLTEuMTU3LS40MDIuMDkyLS44MDMtLjE2LS44OTUtLjU2Mi0uMDkyLS40MDMuMTU5LS44MDQuNTYyLS44OTYgNC41NzEtMS4wNDUgOC40OTItLjU5NSAxMS42NTUgMS4zMzguMzUzLjIxNS40NjQuNjc2LjI0OCAxLjAyOHptLTUuNTAzLTE3LjMwOGMtNi42MjcgMC0xMiA1LjM3My0xMiAxMiAwIDYuNjI4IDUuMzczIDEyIDEyIDEyIDYuNjI4IDAgMTItNS4zNzIgMTItMTIgMC02LjYyNy01LjM3Mi0xMi0xMi0xMnoiLz48L3N2Zz4="> Avicii #8</p>
+                <p class="fasit">
+                    Denne oppgaven handler om å laste ned en fil på format KMZ. Googler man dette, ser man at det er en Google Earth fil. Hvis fila åpnes i Google earth,
+                    eller en online kmz viewer, ser man en vinglete linje som sounderen har kjørt.<br>
+                    Hintet viser til Avicii sin sang #8 på Spotify, som (per dato) er SOS. Linjen har noen korte og lange hakk, som viser data i morse kode. <br>
+                    Hvis morse koden dekodes, ser man at riktig svar er GRIS{Piggtråd}.
+                </p>
+            </div>
+            <div class="hint-item">
+                <h2>Oppg: 6. desember</h2>
+                <p>
+                    <a href="https://fen.affe.no">fen.affe.no</a>
+                </p>
+                <p class="price-hint">Hint: ♟️</p>
+                <p class="fasit">
+                    Denne oppgaven linker til en side med en liste med linjer prefixet FEN.<br>
+                    Hvis man ser på hintet som er en sjakkbrikke, kan man google seg fram til at FEN er en måte å notere tilstanden på et sjakkbrett.<br>
+                    Da kan man ta hver enkelt linje inn i en online FEN viewer, og se at hver linje er en bokstav skrevet med sjakkbrikker.<br>
+                    Ser man gjennom alle, ser man at svaret er: GRIS{BABE}.
+                </p>
+            </div>
+            <div class="hint-item">
+                <h2>Siste oppg: 7. desember</h2>
+                <p>Løs innen 14:00 fredag 8. desember - Her trekkes 2 vinnere!</p>
+                <p>
+                    <a href="https://commas.affe.no/v">commas.affe.no/v</a>
+                </p>
+                <p class="price-hint">Hint: Q: Right? A: Highlight</p>
+                <p class="fasit">
+                    Denne oppgaven linker til en side som videre linker til en fil kalt data.txt.<br>
+                    Denne filen inneholder noen 1 tall og semikolon ;. <br>
+                    Riktig her er å tolke det som en CSV fil, som kommer frem av nettsiden dataen ligger. <strong>commas</strong>.affe.no/<strong>v</strong> (commasv = csv).<br>
+                    Filen kan da lagres som en CSV fil og åpnes i Excel. Her kan man kjøre conditional formatting på tallet 1, og se noe som ligner pixelart.<br>
+                    Hvis kolonnene minskes, vil man se at dette er en QR kode.<br>
+                    Denne kan scannes og vil gi svaret: GRIS{Grisegutt}.
+                </p>
+            </div>
+        </div>
+        <div class="almost-footer">
+            <p>Oppklaring: Svaret skal være på format: GRIS{Kodeord}</p>
+        </div>
+        <div class="footer">
+            <p>Denne siden har ingen kobling til <a href="#">#</a> | Bruker ikke cookies, lover!
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
